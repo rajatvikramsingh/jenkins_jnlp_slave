@@ -2,7 +2,7 @@
 
 This cookbook installs the jenkins JNLP slave through Chef. 
 
-You can use attributes such as jenkins master host, port, jenkins admin username, password to create and automatically connect a jenkins slave through JNLP. 
+This cookbook uses the jenkins cookbook to provide the option of setting up jenkins slaves on a newly provisioned box and connect it to a jenkins master server. You can use attributes such as jenkins master host, port, jenkins admin username, password to create a jenkins slave through JNLP. 
 
 ## Recipe
 
@@ -15,3 +15,4 @@ Please see ```attributes/defaults.rb``` for more information to customize the co
 ## Contribute
 
 Please contact me if you want to contribute to this cookbook.
+
